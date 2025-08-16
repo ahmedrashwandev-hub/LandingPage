@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="#"><img src="photo/logo.png" alt="Photo for logo" class="logo"></a>
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">products</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="text">
+                <h2>Iphone 13 Pro Max</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Rem recusandae, nesciunt suscipit impedit eum magni deleniti magnam dicta pariatur,
+                    sed facilis? Sequi, id illo. Cupiditate totam ut quisquam deserunt dignissimos!
+                </p>
+                <a href="#">All Products</a>
+            </div>
+            <div class="img">
+                <img class="IconPhotoPanner" src="photo/0.png">
+            </div>
+        </div>
+        <div class="icons">
+            <img onclick="ChangePhoto(this.src); ChangeColor('#000')" src="photo/0.png">
+            <img onclick="ChangePhoto(this.src); ChangeColor('#247ec8')" src="photo/1.png">
+            <img onclick="ChangePhoto(this.src); ChangeColor('#1e1e1e')" src="photo/2.png">
+            <img onclick="ChangePhoto(this.src); ChangeColor('#c79b53')" src="photo/3.png">
+            <img onclick="ChangePhoto(this.src); ChangeColor('#c82525')" src="photo/4.png">
+
+        </div>
+    <script src="main.js"></script>
+</body>
+</html>
